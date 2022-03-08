@@ -1,0 +1,20 @@
+diff --git a/node_modules/swiper/css/swiper.css b/node_modules/swiper/css/swiper.css
+index dadb8e1..7d6f260 100644
+--- a/node_modules/swiper/css/swiper.css
++++ b/node_modules/swiper/css/swiper.css
+@@ -142,9 +142,13 @@
+ .swiper-button-next {
+   position: absolute;
+   top: 50%;
+-  width: calc(var(--swiper-navigation-size) / 44 * 27);
++  /* width: calc(var(--swiper-navigation-size) / 44 * 27); */
++  --step1: calc(var(--swiper-navigation-size) / 44);
++  width: calc(var(--step1) * 27);
+   height: var(--swiper-navigation-size);
+-  margin-top: calc(-1 * var(--swiper-navigation-size) / 2);
++  /* margin-top: calc(-1 * var(--swiper-navigation-size) / 2); */
++  --step2: calc(-1 * var(--swiper-navigation-size));
++  margin-top: calc(var(--step2) / 2);
+   z-index: 10;
+   cursor: pointer;
+   display: flex;
