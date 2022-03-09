@@ -73,4 +73,7 @@ export default {
   },
   // ローディング
   loading: '~/components/Loading.vue',
+  generate: {
+    fallback: true,
+  },
 }
