@@ -1,1 +1,7 @@
-/*  /index.html 200
+/home /Home 301
+/mypage /Mypage 301
+/followFollower/*  /followFollower/:splat 301
+/likesList/*  /likesList/:splat 200
+/postDetail/*  /postDetail/:splat 200
+/postDetail/*  /postDetail/:splat 200
+/userPage/*  /userPage/:splat 200
