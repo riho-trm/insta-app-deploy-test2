@@ -1,5 +1,5 @@
-/Home /Home 301
-/Mypage /Mypage 301
+/home /Home 301
+/mypage /Mypage 301
 /followFollower/*  /followFollower/:splat 301
 /likesList/*  /likesList/:splat 200
 /postDetail/*  /postDetail/:splat 200
